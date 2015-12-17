@@ -8,11 +8,24 @@
 
 import Foundation
 
-public class Siri {
+class Siri: VoiceAssistant {
     
     var danceBehavior: DanceBehavior?
+    var voiceCommandObservers: NSMutableArray = NSMutableArray()
     
-    public init() {
-        
+    func addObserver(observer: AnyObject) {
+        voiceCommandObservers.addObject(observer)
+    }
+    
+    func removeObserver(observer: AnyObject) {
+        voiceCommandObservers.removeObject(observer)
+    }
+    
+    func notifyNewVoiceCommand() {
+        for observer in voiceCommandObservers {
+            if let ob = observer as? VoiceCommandObserver {
+                ob.didReceiveVoiceCommand("Hey Siri")
+            }
+        }
     }
 }

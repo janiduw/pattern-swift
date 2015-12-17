@@ -18,6 +18,11 @@
 		76E1CB141C227ADC0088423E /* DanceBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76952A9F1C2273570024E51F /* DanceBehavior.swift */; };
 		76E1CB151C227ADC0088423E /* LatinDance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76952AA11C22740E0024E51F /* LatinDance.swift */; };
 		76E1CB161C227ADC0088423E /* FolkDance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76952AA31C2274650024E51F /* FolkDance.swift */; };
+		76E1CB191C2282D20088423E /* VoiceCommandObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E1CB181C2282D20088423E /* VoiceCommandObserver.swift */; };
+		76E1CB1B1C2283E20088423E /* VoiceAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E1CB1A1C2283E20088423E /* VoiceAssistant.swift */; };
+		76E1CB1C1C2283E20088423E /* VoiceAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E1CB1A1C2283E20088423E /* VoiceAssistant.swift */; };
+		76E1CB1E1C228A430088423E /* ObserverPatternTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E1CB1D1C228A430088423E /* ObserverPatternTest.swift */; };
+		76E1CB1F1C228BB80088423E /* VoiceCommandObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E1CB181C2282D20088423E /* VoiceCommandObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,9 @@
 		76952AA61C2275870024E51F /* PatternSwiftTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PatternSwiftTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		76952AA71C2275880024E51F /* StrategyPatternTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyPatternTest.swift; sourceTree = "<group>"; };
 		76952AA91C22762A0024E51F /* Siri.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Siri.swift; sourceTree = "<group>"; };
+		76E1CB181C2282D20088423E /* VoiceCommandObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceCommandObserver.swift; sourceTree = "<group>"; };
+		76E1CB1A1C2283E20088423E /* VoiceAssistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceAssistant.swift; sourceTree = "<group>"; };
+		76E1CB1D1C228A430088423E /* ObserverPatternTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObserverPatternTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +92,12 @@
 		76952A861C225C5E0024E51F /* Pattern Swift */ = {
 			isa = PBXGroup;
 			children = (
+				76952AA91C22762A0024E51F /* Siri.swift */,
+				76E1CB1A1C2283E20088423E /* VoiceAssistant.swift */,
+				76E1CB171C2281450088423E /* Observer */,
 				76952A9E1C2272470024E51F /* Strategy */,
 				76952A871C225C5E0024E51F /* Pattern Swift.h */,
 				76952A891C225C5E0024E51F /* Info.plist */,
-				76952AA91C22762A0024E51F /* Siri.swift */,
 			);
 			path = "Pattern Swift";
 			sourceTree = "<group>";
@@ -97,6 +107,7 @@
 			children = (
 				76952A951C225C5E0024E51F /* Info.plist */,
 				76952AA71C2275880024E51F /* StrategyPatternTest.swift */,
+				76E1CB1D1C228A430088423E /* ObserverPatternTest.swift */,
 				76952AA61C2275870024E51F /* PatternSwiftTests-Bridging-Header.h */,
 			);
 			path = "Pattern SwiftTests";
@@ -110,6 +121,14 @@
 				76952AA31C2274650024E51F /* FolkDance.swift */,
 			);
 			name = Strategy;
+			sourceTree = "<group>";
+		};
+		76E1CB171C2281450088423E /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				76E1CB181C2282D20088423E /* VoiceCommandObserver.swift */,
+			);
+			name = Observer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,8 +257,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				76952AAA1C22762A0024E51F /* Siri.swift in Sources */,
+				76E1CB1B1C2283E20088423E /* VoiceAssistant.swift in Sources */,
 				76952AA21C22740E0024E51F /* LatinDance.swift in Sources */,
 				76952AA41C2274650024E51F /* FolkDance.swift in Sources */,
+				76E1CB191C2282D20088423E /* VoiceCommandObserver.swift in Sources */,
 				76952AA01C2273570024E51F /* DanceBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				76E1CB141C227ADC0088423E /* DanceBehavior.swift in Sources */,
+				76E1CB1E1C228A430088423E /* ObserverPatternTest.swift in Sources */,
+				76E1CB1F1C228BB80088423E /* VoiceCommandObserver.swift in Sources */,
+				76E1CB1C1C2283E20088423E /* VoiceAssistant.swift in Sources */,
 				76E1CB161C227ADC0088423E /* FolkDance.swift in Sources */,
 				76E1CB131C227AD80088423E /* Siri.swift in Sources */,
 				76E1CB151C227ADC0088423E /* LatinDance.swift in Sources */,
