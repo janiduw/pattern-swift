@@ -8,8 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		76952A881C225C5E0024E51F /* Pattern Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 76952A871C225C5E0024E51F /* Pattern Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76952A8F1C225C5E0024E51F /* Pattern Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76952A841C225C5E0024E51F /* Pattern Swift.framework */; };
-		76952A941C225C5E0024E51F /* Pattern_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76952A931C225C5E0024E51F /* Pattern_SwiftTests.swift */; };
+		76952A8F1C225C5E0024E51F /* PatternSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76952A841C225C5E0024E51F /* PatternSwift.framework */; };
+		76952AA01C2273570024E51F /* DanceBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76952A9F1C2273570024E51F /* DanceBehavior.swift */; };
+		76952AA21C22740E0024E51F /* LatinDance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76952AA11C22740E0024E51F /* LatinDance.swift */; };
+		76952AA41C2274650024E51F /* FolkDance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76952AA31C2274650024E51F /* FolkDance.swift */; };
+		76952AA81C2275880024E51F /* StrategyPatternTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76952AA71C2275880024E51F /* StrategyPatternTest.swift */; };
+		76952AAA1C22762A0024E51F /* Siri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76952AA91C22762A0024E51F /* Siri.swift */; };
+		76E1CB131C227AD80088423E /* Siri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76952AA91C22762A0024E51F /* Siri.swift */; };
+		76E1CB141C227ADC0088423E /* DanceBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76952A9F1C2273570024E51F /* DanceBehavior.swift */; };
+		76E1CB151C227ADC0088423E /* LatinDance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76952AA11C22740E0024E51F /* LatinDance.swift */; };
+		76E1CB161C227ADC0088423E /* FolkDance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76952AA31C2274650024E51F /* FolkDance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +31,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		76952A841C225C5E0024E51F /* Pattern Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pattern Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76952A841C225C5E0024E51F /* PatternSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PatternSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76952A871C225C5E0024E51F /* Pattern Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pattern Swift.h"; sourceTree = "<group>"; };
 		76952A891C225C5E0024E51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76952A8E1C225C5E0024E51F /* Pattern SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pattern SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76952A931C225C5E0024E51F /* Pattern_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern_SwiftTests.swift; sourceTree = "<group>"; };
+		76952A8E1C225C5E0024E51F /* PatternSwift.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatternSwift.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76952A951C225C5E0024E51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76952A9F1C2273570024E51F /* DanceBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DanceBehavior.swift; sourceTree = "<group>"; };
+		76952AA11C22740E0024E51F /* LatinDance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatinDance.swift; sourceTree = "<group>"; };
+		76952AA31C2274650024E51F /* FolkDance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolkDance.swift; sourceTree = "<group>"; };
+		76952AA61C2275870024E51F /* PatternSwiftTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PatternSwiftTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		76952AA71C2275880024E51F /* StrategyPatternTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyPatternTest.swift; sourceTree = "<group>"; };
+		76952AA91C22762A0024E51F /* Siri.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Siri.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76952A8F1C225C5E0024E51F /* Pattern Swift.framework in Frameworks */,
+				76952A8F1C225C5E0024E51F /* PatternSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,8 +75,8 @@
 		76952A851C225C5E0024E51F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				76952A841C225C5E0024E51F /* Pattern Swift.framework */,
-				76952A8E1C225C5E0024E51F /* Pattern SwiftTests.xctest */,
+				76952A841C225C5E0024E51F /* PatternSwift.framework */,
+				76952A8E1C225C5E0024E51F /* PatternSwift.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,8 +84,10 @@
 		76952A861C225C5E0024E51F /* Pattern Swift */ = {
 			isa = PBXGroup;
 			children = (
+				76952A9E1C2272470024E51F /* Strategy */,
 				76952A871C225C5E0024E51F /* Pattern Swift.h */,
 				76952A891C225C5E0024E51F /* Info.plist */,
+				76952AA91C22762A0024E51F /* Siri.swift */,
 			);
 			path = "Pattern Swift";
 			sourceTree = "<group>";
@@ -80,10 +95,21 @@
 		76952A921C225C5E0024E51F /* Pattern SwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				76952A931C225C5E0024E51F /* Pattern_SwiftTests.swift */,
 				76952A951C225C5E0024E51F /* Info.plist */,
+				76952AA71C2275880024E51F /* StrategyPatternTest.swift */,
+				76952AA61C2275870024E51F /* PatternSwiftTests-Bridging-Header.h */,
 			);
 			path = "Pattern SwiftTests";
+			sourceTree = "<group>";
+		};
+		76952A9E1C2272470024E51F /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				76952A9F1C2273570024E51F /* DanceBehavior.swift */,
+				76952AA11C22740E0024E51F /* LatinDance.swift */,
+				76952AA31C2274650024E51F /* FolkDance.swift */,
+			);
+			name = Strategy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,27 +126,28 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		76952A831C225C5E0024E51F /* Pattern Swift */ = {
+		76952A831C225C5E0024E51F /* PatternSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76952A981C225C5E0024E51F /* Build configuration list for PBXNativeTarget "Pattern Swift" */;
+			buildConfigurationList = 76952A981C225C5E0024E51F /* Build configuration list for PBXNativeTarget "PatternSwift" */;
 			buildPhases = (
 				76952A7F1C225C5E0024E51F /* Sources */,
 				76952A801C225C5E0024E51F /* Frameworks */,
 				76952A811C225C5E0024E51F /* Headers */,
 				76952A821C225C5E0024E51F /* Resources */,
+				76952AA51C2274D00024E51F /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pattern Swift";
+			name = PatternSwift;
 			productName = "Pattern Swift";
-			productReference = 76952A841C225C5E0024E51F /* Pattern Swift.framework */;
+			productReference = 76952A841C225C5E0024E51F /* PatternSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		76952A8D1C225C5E0024E51F /* Pattern SwiftTests */ = {
+		76952A8D1C225C5E0024E51F /* PatternSwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76952A9B1C225C5E0024E51F /* Build configuration list for PBXNativeTarget "Pattern SwiftTests" */;
+			buildConfigurationList = 76952A9B1C225C5E0024E51F /* Build configuration list for PBXNativeTarget "PatternSwiftTests" */;
 			buildPhases = (
 				76952A8A1C225C5E0024E51F /* Sources */,
 				76952A8B1C225C5E0024E51F /* Frameworks */,
@@ -131,9 +158,9 @@
 			dependencies = (
 				76952A911C225C5E0024E51F /* PBXTargetDependency */,
 			);
-			name = "Pattern SwiftTests";
+			name = PatternSwiftTests;
 			productName = "Pattern SwiftTests";
-			productReference = 76952A8E1C225C5E0024E51F /* Pattern SwiftTests.xctest */;
+			productReference = 76952A8E1C225C5E0024E51F /* PatternSwift.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -154,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 76952A7E1C225C5E0024E51F /* Build configuration list for PBXProject "Pattern Swift" */;
+			buildConfigurationList = 76952A7E1C225C5E0024E51F /* Build configuration list for PBXProject "PatternSwift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -166,8 +193,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				76952A831C225C5E0024E51F /* Pattern Swift */,
-				76952A8D1C225C5E0024E51F /* Pattern SwiftTests */,
+				76952A831C225C5E0024E51F /* PatternSwift */,
+				76952A8D1C225C5E0024E51F /* PatternSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -189,11 +216,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		76952AA51C2274D00024E51F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		76952A7F1C225C5E0024E51F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76952AAA1C22762A0024E51F /* Siri.swift in Sources */,
+				76952AA21C22740E0024E51F /* LatinDance.swift in Sources */,
+				76952AA41C2274650024E51F /* FolkDance.swift in Sources */,
+				76952AA01C2273570024E51F /* DanceBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +248,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76952A941C225C5E0024E51F /* Pattern_SwiftTests.swift in Sources */,
+				76E1CB141C227ADC0088423E /* DanceBehavior.swift in Sources */,
+				76E1CB161C227ADC0088423E /* FolkDance.swift in Sources */,
+				76E1CB131C227AD80088423E /* Siri.swift in Sources */,
+				76E1CB151C227ADC0088423E /* LatinDance.swift in Sources */,
+				76952AA81C2275880024E51F /* StrategyPatternTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +261,7 @@
 /* Begin PBXTargetDependency section */
 		76952A911C225C5E0024E51F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 76952A831C225C5E0024E51F /* Pattern Swift */;
+			target = 76952A831C225C5E0024E51F /* PatternSwift */;
 			targetProxy = 76952A901C225C5E0024E51F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -308,6 +359,7 @@
 		76952A991C225C5E0024E51F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -316,14 +368,16 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.janiduw.Pattern-Swift";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PatternSwift;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		76952A9A1C225C5E0024E51F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -332,7 +386,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.janiduw.Pattern-Swift";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PatternSwift;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -340,27 +394,32 @@
 		76952A9C1C225C5E0024E51F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Pattern SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.janiduw.Pattern-SwiftTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PatternSwift;
+				SWIFT_OBJC_BRIDGING_HEADER = "Pattern SwiftTests/PatternSwiftTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		76952A9D1C225C5E0024E51F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Pattern SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.janiduw.Pattern-SwiftTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PatternSwift;
+				SWIFT_OBJC_BRIDGING_HEADER = "Pattern SwiftTests/PatternSwiftTests-Bridging-Header.h";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		76952A7E1C225C5E0024E51F /* Build configuration list for PBXProject "Pattern Swift" */ = {
+		76952A7E1C225C5E0024E51F /* Build configuration list for PBXProject "PatternSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76952A961C225C5E0024E51F /* Debug */,
@@ -369,21 +428,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76952A981C225C5E0024E51F /* Build configuration list for PBXNativeTarget "Pattern Swift" */ = {
+		76952A981C225C5E0024E51F /* Build configuration list for PBXNativeTarget "PatternSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76952A991C225C5E0024E51F /* Debug */,
 				76952A9A1C225C5E0024E51F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		76952A9B1C225C5E0024E51F /* Build configuration list for PBXNativeTarget "Pattern SwiftTests" */ = {
+		76952A9B1C225C5E0024E51F /* Build configuration list for PBXNativeTarget "PatternSwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76952A9C1C225C5E0024E51F /* Debug */,
 				76952A9D1C225C5E0024E51F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
