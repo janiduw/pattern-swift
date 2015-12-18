@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7683D65A1C237E1B0073CAE1 /* Cortana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683D6591C237E1B0073CAE1 /* Cortana.swift */; };
+		7683D65C1C237FAF0073CAE1 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683D65B1C237FAF0073CAE1 /* AbstractFactory.swift */; };
+		7683D65E1C23814C0073CAE1 /* SiriFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683D65D1C23814C0073CAE1 /* SiriFactory.swift */; };
+		7683D6601C2381A40073CAE1 /* CortanaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683D65F1C2381A40073CAE1 /* CortanaFactory.swift */; };
+		7683D6631C23837E0073CAE1 /* FactoryPatternTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683D6611C23833A0073CAE1 /* FactoryPatternTest.swift */; };
+		7683D6641C2383CD0073CAE1 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683D65B1C237FAF0073CAE1 /* AbstractFactory.swift */; };
+		7683D6651C2383D00073CAE1 /* SiriFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683D65D1C23814C0073CAE1 /* SiriFactory.swift */; };
+		7683D6661C2383D20073CAE1 /* CortanaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683D65F1C2381A40073CAE1 /* CortanaFactory.swift */; };
+		7683D6671C2383E00073CAE1 /* Cortana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683D6591C237E1B0073CAE1 /* Cortana.swift */; };
+		7683D6691C2388DE0073CAE1 /* FactoryProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683D6681C2388DE0073CAE1 /* FactoryProducer.swift */; };
+		7683D66A1C2388DE0073CAE1 /* FactoryProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683D6681C2388DE0073CAE1 /* FactoryProducer.swift */; };
+		7683D66C1C2389490073CAE1 /* FactoryTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683D66B1C2389490073CAE1 /* FactoryTypes.swift */; };
+		7683D66D1C2389490073CAE1 /* FactoryTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7683D66B1C2389490073CAE1 /* FactoryTypes.swift */; };
 		76952A881C225C5E0024E51F /* Pattern Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 76952A871C225C5E0024E51F /* Pattern Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76952A8F1C225C5E0024E51F /* PatternSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76952A841C225C5E0024E51F /* PatternSwift.framework */; };
 		76952AA01C2273570024E51F /* DanceBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76952A9F1C2273570024E51F /* DanceBehavior.swift */; };
@@ -36,6 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7683D6591C237E1B0073CAE1 /* Cortana.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cortana.swift; sourceTree = "<group>"; };
+		7683D65B1C237FAF0073CAE1 /* AbstractFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		7683D65D1C23814C0073CAE1 /* SiriFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiriFactory.swift; sourceTree = "<group>"; };
+		7683D65F1C2381A40073CAE1 /* CortanaFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CortanaFactory.swift; sourceTree = "<group>"; };
+		7683D6611C23833A0073CAE1 /* FactoryPatternTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryPatternTest.swift; sourceTree = "<group>"; };
+		7683D6681C2388DE0073CAE1 /* FactoryProducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryProducer.swift; sourceTree = "<group>"; };
+		7683D66B1C2389490073CAE1 /* FactoryTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryTypes.swift; sourceTree = "<group>"; };
 		76952A841C225C5E0024E51F /* PatternSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PatternSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76952A871C225C5E0024E51F /* Pattern Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pattern Swift.h"; sourceTree = "<group>"; };
 		76952A891C225C5E0024E51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +91,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7683D6571C237D090073CAE1 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				7683D65B1C237FAF0073CAE1 /* AbstractFactory.swift */,
+				7683D65D1C23814C0073CAE1 /* SiriFactory.swift */,
+				7683D65F1C2381A40073CAE1 /* CortanaFactory.swift */,
+				7683D6681C2388DE0073CAE1 /* FactoryProducer.swift */,
+				7683D66B1C2389490073CAE1 /* FactoryTypes.swift */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		7683D6581C237D2F0073CAE1 /* Voice Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				76952AA91C22762A0024E51F /* Siri.swift */,
+				76E1CB1A1C2283E20088423E /* VoiceAssistant.swift */,
+				7683D6591C237E1B0073CAE1 /* Cortana.swift */,
+			);
+			name = "Voice Assistant";
+			sourceTree = "<group>";
+		};
 		76952A7A1C225C5E0024E51F = {
 			isa = PBXGroup;
 			children = (
@@ -92,8 +134,8 @@
 		76952A861C225C5E0024E51F /* Pattern Swift */ = {
 			isa = PBXGroup;
 			children = (
-				76952AA91C22762A0024E51F /* Siri.swift */,
-				76E1CB1A1C2283E20088423E /* VoiceAssistant.swift */,
+				7683D6581C237D2F0073CAE1 /* Voice Assistant */,
+				7683D6571C237D090073CAE1 /* Factory */,
 				76E1CB171C2281450088423E /* Observer */,
 				76952A9E1C2272470024E51F /* Strategy */,
 				76952A871C225C5E0024E51F /* Pattern Swift.h */,
@@ -108,6 +150,7 @@
 				76952A951C225C5E0024E51F /* Info.plist */,
 				76952AA71C2275880024E51F /* StrategyPatternTest.swift */,
 				76E1CB1D1C228A430088423E /* ObserverPatternTest.swift */,
+				7683D6611C23833A0073CAE1 /* FactoryPatternTest.swift */,
 				76952AA61C2275870024E51F /* PatternSwiftTests-Bridging-Header.h */,
 			);
 			path = "Pattern SwiftTests";
@@ -257,10 +300,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				76952AAA1C22762A0024E51F /* Siri.swift in Sources */,
+				7683D65E1C23814C0073CAE1 /* SiriFactory.swift in Sources */,
 				76E1CB1B1C2283E20088423E /* VoiceAssistant.swift in Sources */,
+				7683D6691C2388DE0073CAE1 /* FactoryProducer.swift in Sources */,
+				7683D6601C2381A40073CAE1 /* CortanaFactory.swift in Sources */,
+				7683D65A1C237E1B0073CAE1 /* Cortana.swift in Sources */,
 				76952AA21C22740E0024E51F /* LatinDance.swift in Sources */,
+				7683D65C1C237FAF0073CAE1 /* AbstractFactory.swift in Sources */,
 				76952AA41C2274650024E51F /* FolkDance.swift in Sources */,
 				76E1CB191C2282D20088423E /* VoiceCommandObserver.swift in Sources */,
+				7683D66C1C2389490073CAE1 /* FactoryTypes.swift in Sources */,
 				76952AA01C2273570024E51F /* DanceBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,12 +319,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				76E1CB141C227ADC0088423E /* DanceBehavior.swift in Sources */,
+				7683D6671C2383E00073CAE1 /* Cortana.swift in Sources */,
 				76E1CB1E1C228A430088423E /* ObserverPatternTest.swift in Sources */,
+				7683D6641C2383CD0073CAE1 /* AbstractFactory.swift in Sources */,
 				76E1CB1F1C228BB80088423E /* VoiceCommandObserver.swift in Sources */,
 				76E1CB1C1C2283E20088423E /* VoiceAssistant.swift in Sources */,
 				76E1CB161C227ADC0088423E /* FolkDance.swift in Sources */,
+				7683D6651C2383D00073CAE1 /* SiriFactory.swift in Sources */,
+				7683D66A1C2388DE0073CAE1 /* FactoryProducer.swift in Sources */,
+				7683D6661C2383D20073CAE1 /* CortanaFactory.swift in Sources */,
+				7683D66D1C2389490073CAE1 /* FactoryTypes.swift in Sources */,
 				76E1CB131C227AD80088423E /* Siri.swift in Sources */,
 				76E1CB151C227ADC0088423E /* LatinDance.swift in Sources */,
+				7683D6631C23837E0073CAE1 /* FactoryPatternTest.swift in Sources */,
 				76952AA81C2275880024E51F /* StrategyPatternTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

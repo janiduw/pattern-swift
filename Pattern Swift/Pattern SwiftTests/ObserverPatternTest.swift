@@ -28,6 +28,14 @@ class ObserverPatternTest: XCTestCase {
         XCTAssertFalse(siri.voiceCommandObservers.count == 0)
     }
     
+    func testRemoveObserver() {
+        let testObsv = TestObserver()
+        siri.addObserver(testObsv)
+        XCTAssertTrue(siri.voiceCommandObservers.count == 1)
+        siri.removeObserver(testObsv)
+        XCTAssertTrue(siri.voiceCommandObservers.count == 0)
+    }
+    
     func testNotifyNewVoiceCommand() {
         siri.addObserver(TestObserver())
         siri.notifyNewVoiceCommand()
