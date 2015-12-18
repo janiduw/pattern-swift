@@ -18,8 +18,8 @@ class FactoryPatternTest: XCTestCase {
     }
     
     func testFactoryProducer() {
-       XCTAssertNotNil(FactoryProducer.getFactory(.SiriFactory))
-         XCTAssertNotNil(FactoryProducer.getFactory(.CortanaFactory))
+        XCTAssertNotNil(FactoryProducer.getFactory(.SiriFactory))
+        XCTAssertNotNil(FactoryProducer.getFactory(.CortanaFactory))
     }
     
     func testSiriFactoryNotNil() {
@@ -36,7 +36,7 @@ class FactoryPatternTest: XCTestCase {
         let siriFactory: AbstractFactory = SiriFactory()
         XCTAssertNil(siriFactory.createCortana())
     }
-
+    
     func testCortanaFactoryNotNil() {
         let cortanaFactory: AbstractFactory = CortanaFactory()
         XCTAssertNotNil(cortanaFactory)
